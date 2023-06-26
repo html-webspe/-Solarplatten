@@ -1,169 +1,776 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<title>Profisolar Bau GmbH</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230626232717">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «Solarplatten»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка «Solarplatten»</h1>
-		<div class="rootpage__info">
-			Опис проєкту
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+				<a href="" class="header__logo logo">
+					<img src="img/logo.svg" alt="Logo">
+				</a>
+
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" data-goto="#steps" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="" data-goto="#calculate" class="menu__link">Calculator</a></li>
+							<li class="menu__item"><a href="" data-goto="#reviews" class="menu__link">Reviews</a></li>
+							<li class="menu__item"><a href="" data-goto="#works" class="menu__link">Works</a></li>
+							<li class="menu__item"><a href="" data-goto="#faq" class="menu__link">FAQ</a></li>
+							<li class="menu__item"><a href="" data-goto="#feedback" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div data-da=".menu__body,768,first" class="header__location location">
+					<a href="/-Solarplatten/" class="location__item">DE</a>
+					<a href="/-Solarplatten/en" class="location__item">EN</a>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="section intro">
+				<div class="intro__container">
+					<div class="intro__body">
+						<h1 class="intro__title title">Solarplatten</h1>
+						<p class="intro__text">
+							We will install solar panel system maximum in one month. We will calculate the price during online meeting.
+						</p>
+						<button type="button" data-goto="#calculate" class="intro__btn btn btn-white">Find out availability</button>
+					</div>
+					<div class="intro__img">
+						<picture><source srcset="img/intro-img.webp" type="image/webp"><img src="img/intro-img.png" alt="Img"></picture>
+					</div>
+				</div>
+			</section>
+			<section id="steps" class="section steps">
+				<div class="steps__group steps__group-left">
+					<div class="steps__list">
+						<div class="steps__item item-steps">
+							<h3 class="item-steps__title">Standortanalyse</h3>
+							<p class="item-steps__desc">
+								Unser Team wird eine Standortanalyse durchführen, um Ihren Energiebedarf und die Eignung Ihres Standorts für die Installation von Solarmodulen zu bewerten.
+							</p>
+						</div>
+						<div class="steps__item item-steps">
+							<h3 class="item-steps__title">Genehmigung</h3>
+							<p class="item-steps__desc">
+								Wir werden alle notwendigen Genehmigungen für die Installation Ihres Solaranlagensystems beantragen.
+							</p>
+						</div>
+						<div class="steps__item item-steps">
+							<h3 class="item-steps__title">Inspektion</h3>
+							<p class="item-steps__desc">
+								Wir werden regelmäßig Ihr Solarsystem überprüfen, um sicherzustellen, dass es optimal funktioniert.
+							</p>
+						</div>
+						<div class="steps__item item-steps">
+							<h3 class="item-steps__title">Systemdesign</h3>
+							<p class="item-steps__desc">
+								Wir werden mit Ihnen zusammenarbeiten, um ein benutzerdefiniertes Solarpanelsystem zu entwerfen, das Ihren Energiebedarf und Ihr Budget erfüllt.
+							</p>
+						</div>
+						<div class="steps__item item-steps">
+							<h3 class="item-steps__title">Installation</h3>
+							<p class="item-steps__desc">
+								Unser Team von Fachleuten installiert Ihr Solarpanelsystem mit zusätzlichen Komponenten wie Wechselrichter und Batteriespeichersystemen, um seine Leistung zu maximieren
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="steps__group steps__group-right">
+					<h2 class="section__title steps__title">Es ist einfach <span>und schnell mit uns!</span></h2>
+					<p class="steps__desc">
+						Wir bieten eine schlüsselfertige Solarstation für Privathäuser an. In Deutschland gibt es so ein Zeitproblem, dass die Menschen ein Jahr warten können, bis ihnen die Panels geliefert werden.
+
+						<strong>Unser Vorteil ist, dass wir es schnell machen!</strong>
+					</p>
+					<button type="button" data-goto="#calculate" class="btn">Informieren Sie sich über die Verfügbarkeit</button>
+				</div>
+			</section>
+			<section id="calculate" class="section calculate">
+				<div class="calculate__container">
+					<div class="calculate__img">
+						<picture><source srcset="img/calculate-img.webp" type="image/webp"><img src="img/calculate-img.jpg" alt="Img"></picture>
+					</div>
+					<div class="calculate__body">
+						<h2 class="section__title calculate__title">
+							Berechnen <span>Sie die Kosten für Solarplatten</span>
+						</h2>
+
+						<p class="calculate__desc">Lassen Sie uns die besten Zusatzkomponenten für Solarpanelsysteme nach Ihren Bedürfnissen auswählen.</p>
+
+						<button type="button" class="btn calculate__btn calculate-js">Berechnung</button>
+					</div>
+				</div>
+			</section>
+			<section class="section reviews">
+				<div class="reviews__container">
+					<div class="reviews__header">
+						<h2 class="section__title reviews__title">Das Feedback <span>unserer Kunden</span></h2>
+
+						<div class="reviews__control">
+							<button type="button" class="reviews__button reviews__button-prev">
+								<svg viewBox="0 0 18 27" fill="none">
+									<path d="M15 24L2.96317 14.2779C2.46762 13.8777 2.46762 13.1223 2.96317 12.7221L15 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+								</svg>
+							</button>
+							<button type="button" class="reviews__button reviews__button-next">
+								<svg viewBox="0 0 18 27" fill="none">
+									<path d="M3 3L15.0368 12.7221C15.5324 13.1223 15.5324 13.8777 15.0368 14.2779L3 24" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+								</svg>
+							</button>
+						</div>
+					</div>
+
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__item item-reviews swiper-slide">
+								<div class="item-reviews__img">
+									<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt="Img"></picture>
+								</div>
+								<h3 class="item-reviews__title">Bohdana Antonyuk</h3>
+								<div class="item-reviews__reting">
+									<svg width="109" height="22" viewBox="0 0 109 22" fill="none">
+										<path d="M9.85309 1.86615C10.1568 1.16093 11.1567 1.16093 11.4604 1.86615L13.3326 6.21367C13.4593 6.50782 13.7366 6.70926 14.0555 6.73884L18.7687 7.17598C19.5333 7.24689 19.8423 8.19785 19.2654 8.70461L15.7092 11.8287C15.4686 12.04 15.3627 12.366 15.4331 12.6784L16.4739 17.2961C16.6427 18.0451 15.8338 18.6329 15.1736 18.2408L11.1035 15.8241C10.8281 15.6606 10.4854 15.6606 10.21 15.8241L6.13993 18.2408C5.47971 18.6329 4.67078 18.0451 4.8396 17.2961L5.88033 12.6784C5.95075 12.366 5.84484 12.04 5.60423 11.8287L2.04805 8.70461C1.4712 8.19785 1.78018 7.24689 2.54473 7.17598L7.25802 6.73884C7.57692 6.70926 7.85418 6.50782 7.98086 6.21367L9.85309 1.86615Z" fill="#DBB52F" />
+										<path d="M31.775 1.86615C32.0787 1.16093 33.0786 1.16093 33.3823 1.86615L35.2545 6.21367C35.3812 6.50782 35.6584 6.70926 35.9773 6.73884L40.6906 7.17598C41.4552 7.24689 41.7642 8.19785 41.1873 8.70461L37.6311 11.8287C37.3905 12.04 37.2846 12.366 37.355 12.6784L38.3958 17.2961C38.5646 18.0451 37.7556 18.6329 37.0954 18.2408L33.0254 15.8241C32.75 15.6606 32.4073 15.6606 32.1319 15.8241L28.0618 18.2408C27.4016 18.6329 26.5927 18.0451 26.7615 17.2961L27.8022 12.6784C27.8726 12.366 27.7667 12.04 27.5261 11.8287L23.9699 8.70461C23.3931 8.19785 23.7021 7.24689 24.4666 7.17598L29.1799 6.73884C29.4988 6.70926 29.7761 6.50782 29.9027 6.21367L31.775 1.86615Z" fill="#DBB52F" />
+										<path d="M53.7007 1.86615C54.0044 1.16093 55.0043 1.16093 55.308 1.86615L57.1803 6.21367C57.307 6.50782 57.5842 6.70926 57.9031 6.73884L62.6164 7.17598C63.381 7.24689 63.6899 8.19785 63.1131 8.70461L59.5569 11.8287C59.3163 12.04 59.2104 12.366 59.2808 12.6784L60.3215 17.2961C60.4904 18.0451 59.6814 18.6329 59.0212 18.2408L54.9511 15.8241C54.6758 15.6606 54.333 15.6606 54.0577 15.8241L49.9876 18.2408C49.3274 18.6329 48.5184 18.0451 48.6873 17.2961L49.728 12.6784C49.7984 12.366 49.6925 12.04 49.4519 11.8287L45.8957 8.70461C45.3189 8.19785 45.6278 7.24689 46.3924 7.17598L51.1057 6.73884C51.4246 6.70926 51.7018 6.50782 51.8285 6.21367L53.7007 1.86615Z" fill="#DBB52F" />
+										<path d="M75.6226 1.86615C75.9263 1.16093 76.9262 1.16093 77.2299 1.86615L79.1022 6.21367C79.2288 6.50782 79.5061 6.70926 79.825 6.73884L84.5383 7.17598C85.3028 7.24689 85.6118 8.19785 85.035 8.70461L81.4788 11.8287C81.2382 12.04 81.1323 12.366 81.2027 12.6784L82.2434 17.2961C82.4122 18.0451 81.6033 18.6329 80.9431 18.2408L76.873 15.8241C76.5976 15.6606 76.2549 15.6606 75.9795 15.8241L71.9095 18.2408C71.2492 18.6329 70.4403 18.0451 70.6091 17.2961L71.6499 12.6784C71.7203 12.366 71.6144 12.04 71.3738 11.8287L67.8176 8.70461C67.2407 8.19785 67.5497 7.24689 68.3143 7.17598L73.0275 6.73884C73.3465 6.70926 73.6237 6.50782 73.7504 6.21367L75.6226 1.86615Z" fill="#DBB52F" />
+										<path d="M97.5406 1.86615C97.8443 1.16093 98.8442 1.16093 99.1479 1.86615L101.02 6.21367C101.147 6.50782 101.424 6.70926 101.743 6.73884L106.456 7.17598C107.221 7.24689 107.53 8.19785 106.953 8.70461L103.397 11.8287C103.156 12.04 103.05 12.366 103.121 12.6784L104.161 17.2961C104.33 18.0451 103.521 18.6329 102.861 18.2408L98.791 15.8241C98.5156 15.6606 98.1729 15.6606 97.8975 15.8241L93.8274 18.2408C93.1672 18.6329 92.3583 18.0451 92.5271 17.2961L93.5678 12.6784C93.6382 12.366 93.5323 12.04 93.2917 11.8287L89.7356 8.70461C89.1587 8.19785 89.4677 7.24689 90.2322 7.17598L94.9455 6.73884C95.2644 6.70926 95.5417 6.50782 95.6684 6.21367L97.5406 1.86615Z" fill="#AAAAAA" />
+									</svg>
+								</div>
+								<div class="item-reviews__desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim integer morbi velit, tortor ornare nec ut. Vitae purus morbi quam orci diam eget sit faucibus nulla. Lectus faucibus netus diam viverra nec hac. Suspendisse eu enim lectus lobortis.
+								</div>
+							</div>
+							<div class="reviews__item item-reviews swiper-slide">
+								<div class="item-reviews__img">
+									<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt="Img"></picture>
+								</div>
+								<h3 class="item-reviews__title">Bohdana Vorobets</h3>
+								<div class="item-reviews__reting">
+									<svg width="109" height="22" viewBox="0 0 109 22" fill="none">
+										<path d="M9.85309 1.86615C10.1568 1.16093 11.1567 1.16093 11.4604 1.86615L13.3326 6.21367C13.4593 6.50782 13.7366 6.70926 14.0555 6.73884L18.7687 7.17598C19.5333 7.24689 19.8423 8.19785 19.2654 8.70461L15.7092 11.8287C15.4686 12.04 15.3627 12.366 15.4331 12.6784L16.4739 17.2961C16.6427 18.0451 15.8338 18.6329 15.1736 18.2408L11.1035 15.8241C10.8281 15.6606 10.4854 15.6606 10.21 15.8241L6.13993 18.2408C5.47971 18.6329 4.67078 18.0451 4.8396 17.2961L5.88033 12.6784C5.95075 12.366 5.84484 12.04 5.60423 11.8287L2.04805 8.70461C1.4712 8.19785 1.78018 7.24689 2.54473 7.17598L7.25802 6.73884C7.57692 6.70926 7.85418 6.50782 7.98086 6.21367L9.85309 1.86615Z" fill="#DBB52F" />
+										<path d="M31.775 1.86615C32.0787 1.16093 33.0786 1.16093 33.3823 1.86615L35.2545 6.21367C35.3812 6.50782 35.6584 6.70926 35.9773 6.73884L40.6906 7.17598C41.4552 7.24689 41.7642 8.19785 41.1873 8.70461L37.6311 11.8287C37.3905 12.04 37.2846 12.366 37.355 12.6784L38.3958 17.2961C38.5646 18.0451 37.7556 18.6329 37.0954 18.2408L33.0254 15.8241C32.75 15.6606 32.4073 15.6606 32.1319 15.8241L28.0618 18.2408C27.4016 18.6329 26.5927 18.0451 26.7615 17.2961L27.8022 12.6784C27.8726 12.366 27.7667 12.04 27.5261 11.8287L23.9699 8.70461C23.3931 8.19785 23.7021 7.24689 24.4666 7.17598L29.1799 6.73884C29.4988 6.70926 29.7761 6.50782 29.9027 6.21367L31.775 1.86615Z" fill="#DBB52F" />
+										<path d="M53.7007 1.86615C54.0044 1.16093 55.0043 1.16093 55.308 1.86615L57.1803 6.21367C57.307 6.50782 57.5842 6.70926 57.9031 6.73884L62.6164 7.17598C63.381 7.24689 63.6899 8.19785 63.1131 8.70461L59.5569 11.8287C59.3163 12.04 59.2104 12.366 59.2808 12.6784L60.3215 17.2961C60.4904 18.0451 59.6814 18.6329 59.0212 18.2408L54.9511 15.8241C54.6758 15.6606 54.333 15.6606 54.0577 15.8241L49.9876 18.2408C49.3274 18.6329 48.5184 18.0451 48.6873 17.2961L49.728 12.6784C49.7984 12.366 49.6925 12.04 49.4519 11.8287L45.8957 8.70461C45.3189 8.19785 45.6278 7.24689 46.3924 7.17598L51.1057 6.73884C51.4246 6.70926 51.7018 6.50782 51.8285 6.21367L53.7007 1.86615Z" fill="#DBB52F" />
+										<path d="M75.6226 1.86615C75.9263 1.16093 76.9262 1.16093 77.2299 1.86615L79.1022 6.21367C79.2288 6.50782 79.5061 6.70926 79.825 6.73884L84.5383 7.17598C85.3028 7.24689 85.6118 8.19785 85.035 8.70461L81.4788 11.8287C81.2382 12.04 81.1323 12.366 81.2027 12.6784L82.2434 17.2961C82.4122 18.0451 81.6033 18.6329 80.9431 18.2408L76.873 15.8241C76.5976 15.6606 76.2549 15.6606 75.9795 15.8241L71.9095 18.2408C71.2492 18.6329 70.4403 18.0451 70.6091 17.2961L71.6499 12.6784C71.7203 12.366 71.6144 12.04 71.3738 11.8287L67.8176 8.70461C67.2407 8.19785 67.5497 7.24689 68.3143 7.17598L73.0275 6.73884C73.3465 6.70926 73.6237 6.50782 73.7504 6.21367L75.6226 1.86615Z" fill="#DBB52F" />
+										<path d="M97.5406 1.86615C97.8443 1.16093 98.8442 1.16093 99.1479 1.86615L101.02 6.21367C101.147 6.50782 101.424 6.70926 101.743 6.73884L106.456 7.17598C107.221 7.24689 107.53 8.19785 106.953 8.70461L103.397 11.8287C103.156 12.04 103.05 12.366 103.121 12.6784L104.161 17.2961C104.33 18.0451 103.521 18.6329 102.861 18.2408L98.791 15.8241C98.5156 15.6606 98.1729 15.6606 97.8975 15.8241L93.8274 18.2408C93.1672 18.6329 92.3583 18.0451 92.5271 17.2961L93.5678 12.6784C93.6382 12.366 93.5323 12.04 93.2917 11.8287L89.7356 8.70461C89.1587 8.19785 89.4677 7.24689 90.2322 7.17598L94.9455 6.73884C95.2644 6.70926 95.5417 6.50782 95.6684 6.21367L97.5406 1.86615Z" fill="#DBB52F" />
+									</svg>
+								</div>
+								<div class="item-reviews__desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim integer morbi velit, tortor ornare nec ut. Vitae purus morbi quam orci diam eget sit faucibus nulla. Lectus faucibus netus diam viverra nec hac. Suspendisse eu enim lectus lobortis.
+								</div>
+							</div>
+							<div class="reviews__item item-reviews swiper-slide">
+								<div class="item-reviews__img">
+									<picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg" alt="Img"></picture>
+								</div>
+								<h3 class="item-reviews__title">Dana Vovk</h3>
+								<div class="item-reviews__reting">
+									<svg width="109" height="22" viewBox="0 0 109 22" fill="none">
+										<path d="M9.85309 1.86615C10.1568 1.16093 11.1567 1.16093 11.4604 1.86615L13.3326 6.21367C13.4593 6.50782 13.7366 6.70926 14.0555 6.73884L18.7687 7.17598C19.5333 7.24689 19.8423 8.19785 19.2654 8.70461L15.7092 11.8287C15.4686 12.04 15.3627 12.366 15.4331 12.6784L16.4739 17.2961C16.6427 18.0451 15.8338 18.6329 15.1736 18.2408L11.1035 15.8241C10.8281 15.6606 10.4854 15.6606 10.21 15.8241L6.13993 18.2408C5.47971 18.6329 4.67078 18.0451 4.8396 17.2961L5.88033 12.6784C5.95075 12.366 5.84484 12.04 5.60423 11.8287L2.04805 8.70461C1.4712 8.19785 1.78018 7.24689 2.54473 7.17598L7.25802 6.73884C7.57692 6.70926 7.85418 6.50782 7.98086 6.21367L9.85309 1.86615Z" fill="#DBB52F" />
+										<path d="M31.775 1.86615C32.0787 1.16093 33.0786 1.16093 33.3823 1.86615L35.2545 6.21367C35.3812 6.50782 35.6584 6.70926 35.9773 6.73884L40.6906 7.17598C41.4552 7.24689 41.7642 8.19785 41.1873 8.70461L37.6311 11.8287C37.3905 12.04 37.2846 12.366 37.355 12.6784L38.3958 17.2961C38.5646 18.0451 37.7556 18.6329 37.0954 18.2408L33.0254 15.8241C32.75 15.6606 32.4073 15.6606 32.1319 15.8241L28.0618 18.2408C27.4016 18.6329 26.5927 18.0451 26.7615 17.2961L27.8022 12.6784C27.8726 12.366 27.7667 12.04 27.5261 11.8287L23.9699 8.70461C23.3931 8.19785 23.7021 7.24689 24.4666 7.17598L29.1799 6.73884C29.4988 6.70926 29.7761 6.50782 29.9027 6.21367L31.775 1.86615Z" fill="#DBB52F" />
+										<path d="M53.7007 1.86615C54.0044 1.16093 55.0043 1.16093 55.308 1.86615L57.1803 6.21367C57.307 6.50782 57.5842 6.70926 57.9031 6.73884L62.6164 7.17598C63.381 7.24689 63.6899 8.19785 63.1131 8.70461L59.5569 11.8287C59.3163 12.04 59.2104 12.366 59.2808 12.6784L60.3215 17.2961C60.4904 18.0451 59.6814 18.6329 59.0212 18.2408L54.9511 15.8241C54.6758 15.6606 54.333 15.6606 54.0577 15.8241L49.9876 18.2408C49.3274 18.6329 48.5184 18.0451 48.6873 17.2961L49.728 12.6784C49.7984 12.366 49.6925 12.04 49.4519 11.8287L45.8957 8.70461C45.3189 8.19785 45.6278 7.24689 46.3924 7.17598L51.1057 6.73884C51.4246 6.70926 51.7018 6.50782 51.8285 6.21367L53.7007 1.86615Z" fill="#DBB52F" />
+										<path d="M75.6226 1.86615C75.9263 1.16093 76.9262 1.16093 77.2299 1.86615L79.1022 6.21367C79.2288 6.50782 79.5061 6.70926 79.825 6.73884L84.5383 7.17598C85.3028 7.24689 85.6118 8.19785 85.035 8.70461L81.4788 11.8287C81.2382 12.04 81.1323 12.366 81.2027 12.6784L82.2434 17.2961C82.4122 18.0451 81.6033 18.6329 80.9431 18.2408L76.873 15.8241C76.5976 15.6606 76.2549 15.6606 75.9795 15.8241L71.9095 18.2408C71.2492 18.6329 70.4403 18.0451 70.6091 17.2961L71.6499 12.6784C71.7203 12.366 71.6144 12.04 71.3738 11.8287L67.8176 8.70461C67.2407 8.19785 67.5497 7.24689 68.3143 7.17598L73.0275 6.73884C73.3465 6.70926 73.6237 6.50782 73.7504 6.21367L75.6226 1.86615Z" fill="#DBB52F" />
+										<path d="M97.5406 1.86615C97.8443 1.16093 98.8442 1.16093 99.1479 1.86615L101.02 6.21367C101.147 6.50782 101.424 6.70926 101.743 6.73884L106.456 7.17598C107.221 7.24689 107.53 8.19785 106.953 8.70461L103.397 11.8287C103.156 12.04 103.05 12.366 103.121 12.6784L104.161 17.2961C104.33 18.0451 103.521 18.6329 102.861 18.2408L98.791 15.8241C98.5156 15.6606 98.1729 15.6606 97.8975 15.8241L93.8274 18.2408C93.1672 18.6329 92.3583 18.0451 92.5271 17.2961L93.5678 12.6784C93.6382 12.366 93.5323 12.04 93.2917 11.8287L89.7356 8.70461C89.1587 8.19785 89.4677 7.24689 90.2322 7.17598L94.9455 6.73884C95.2644 6.70926 95.5417 6.50782 95.6684 6.21367L97.5406 1.86615Z" fill="#AAAAAA" />
+									</svg>
+								</div>
+								<div class="item-reviews__desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim integer morbi velit, tortor ornare nec ut. Vitae purus morbi quam orci diam eget sit faucibus nulla. Lectus faucibus netus diam viverra nec hac. Suspendisse eu enim lectus lobortis.
+								</div>
+							</div>
+							<div class="reviews__item item-reviews swiper-slide">
+								<div class="item-reviews__img">
+									<picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg" alt="Img"></picture>
+								</div>
+								<h3 class="item-reviews__title">Dana Vovk</h3>
+								<div class="item-reviews__reting">
+									<svg width="109" height="22" viewBox="0 0 109 22" fill="none">
+										<path d="M9.85309 1.86615C10.1568 1.16093 11.1567 1.16093 11.4604 1.86615L13.3326 6.21367C13.4593 6.50782 13.7366 6.70926 14.0555 6.73884L18.7687 7.17598C19.5333 7.24689 19.8423 8.19785 19.2654 8.70461L15.7092 11.8287C15.4686 12.04 15.3627 12.366 15.4331 12.6784L16.4739 17.2961C16.6427 18.0451 15.8338 18.6329 15.1736 18.2408L11.1035 15.8241C10.8281 15.6606 10.4854 15.6606 10.21 15.8241L6.13993 18.2408C5.47971 18.6329 4.67078 18.0451 4.8396 17.2961L5.88033 12.6784C5.95075 12.366 5.84484 12.04 5.60423 11.8287L2.04805 8.70461C1.4712 8.19785 1.78018 7.24689 2.54473 7.17598L7.25802 6.73884C7.57692 6.70926 7.85418 6.50782 7.98086 6.21367L9.85309 1.86615Z" fill="#DBB52F" />
+										<path d="M31.775 1.86615C32.0787 1.16093 33.0786 1.16093 33.3823 1.86615L35.2545 6.21367C35.3812 6.50782 35.6584 6.70926 35.9773 6.73884L40.6906 7.17598C41.4552 7.24689 41.7642 8.19785 41.1873 8.70461L37.6311 11.8287C37.3905 12.04 37.2846 12.366 37.355 12.6784L38.3958 17.2961C38.5646 18.0451 37.7556 18.6329 37.0954 18.2408L33.0254 15.8241C32.75 15.6606 32.4073 15.6606 32.1319 15.8241L28.0618 18.2408C27.4016 18.6329 26.5927 18.0451 26.7615 17.2961L27.8022 12.6784C27.8726 12.366 27.7667 12.04 27.5261 11.8287L23.9699 8.70461C23.3931 8.19785 23.7021 7.24689 24.4666 7.17598L29.1799 6.73884C29.4988 6.70926 29.7761 6.50782 29.9027 6.21367L31.775 1.86615Z" fill="#DBB52F" />
+										<path d="M53.7007 1.86615C54.0044 1.16093 55.0043 1.16093 55.308 1.86615L57.1803 6.21367C57.307 6.50782 57.5842 6.70926 57.9031 6.73884L62.6164 7.17598C63.381 7.24689 63.6899 8.19785 63.1131 8.70461L59.5569 11.8287C59.3163 12.04 59.2104 12.366 59.2808 12.6784L60.3215 17.2961C60.4904 18.0451 59.6814 18.6329 59.0212 18.2408L54.9511 15.8241C54.6758 15.6606 54.333 15.6606 54.0577 15.8241L49.9876 18.2408C49.3274 18.6329 48.5184 18.0451 48.6873 17.2961L49.728 12.6784C49.7984 12.366 49.6925 12.04 49.4519 11.8287L45.8957 8.70461C45.3189 8.19785 45.6278 7.24689 46.3924 7.17598L51.1057 6.73884C51.4246 6.70926 51.7018 6.50782 51.8285 6.21367L53.7007 1.86615Z" fill="#DBB52F" />
+										<path d="M75.6226 1.86615C75.9263 1.16093 76.9262 1.16093 77.2299 1.86615L79.1022 6.21367C79.2288 6.50782 79.5061 6.70926 79.825 6.73884L84.5383 7.17598C85.3028 7.24689 85.6118 8.19785 85.035 8.70461L81.4788 11.8287C81.2382 12.04 81.1323 12.366 81.2027 12.6784L82.2434 17.2961C82.4122 18.0451 81.6033 18.6329 80.9431 18.2408L76.873 15.8241C76.5976 15.6606 76.2549 15.6606 75.9795 15.8241L71.9095 18.2408C71.2492 18.6329 70.4403 18.0451 70.6091 17.2961L71.6499 12.6784C71.7203 12.366 71.6144 12.04 71.3738 11.8287L67.8176 8.70461C67.2407 8.19785 67.5497 7.24689 68.3143 7.17598L73.0275 6.73884C73.3465 6.70926 73.6237 6.50782 73.7504 6.21367L75.6226 1.86615Z" fill="#DBB52F" />
+										<path d="M97.5406 1.86615C97.8443 1.16093 98.8442 1.16093 99.1479 1.86615L101.02 6.21367C101.147 6.50782 101.424 6.70926 101.743 6.73884L106.456 7.17598C107.221 7.24689 107.53 8.19785 106.953 8.70461L103.397 11.8287C103.156 12.04 103.05 12.366 103.121 12.6784L104.161 17.2961C104.33 18.0451 103.521 18.6329 102.861 18.2408L98.791 15.8241C98.5156 15.6606 98.1729 15.6606 97.8975 15.8241L93.8274 18.2408C93.1672 18.6329 92.3583 18.0451 92.5271 17.2961L93.5678 12.6784C93.6382 12.366 93.5323 12.04 93.2917 11.8287L89.7356 8.70461C89.1587 8.19785 89.4677 7.24689 90.2322 7.17598L94.9455 6.73884C95.2644 6.70926 95.5417 6.50782 95.6684 6.21367L97.5406 1.86615Z" fill="#AAAAAA" />
+									</svg>
+								</div>
+								<div class="item-reviews__desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim integer morbi velit, tortor ornare nec ut. Vitae purus morbi quam orci diam eget sit faucibus nulla. Lectus faucibus netus diam viverra nec hac. Suspendisse eu enim lectus lobortis.
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section id="works" class="section works">
+				<div class="works__container">
+					<div class="works__header">
+						<h2 class="section__title works__title">Unsere <span>neuesten Arbeitswerke</span></h2>
+
+						<div class="works__control">
+							<button type="button" class="works__button works__button-prev">
+								<svg viewBox="0 0 18 27" fill="none">
+									<path d="M15 24L2.96317 14.2779C2.46762 13.8777 2.46762 13.1223 2.96317 12.7221L15 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+								</svg>
+							</button>
+							<button type="button" class="works__button works__button-next">
+								<svg viewBox="0 0 18 27" fill="none">
+									<path d="M3 3L15.0368 12.7221C15.5324 13.1223 15.5324 13.8777 15.0368 14.2779L3 24" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="works__body">
+					<div class="works__slider swiper">
+						<div class="works__wrapper swiper-wrapper">
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/01.webp" type="image/webp"><img src="img/works/01.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/03.webp" type="image/webp"><img src="img/works/03.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/04.webp" type="image/webp"><img src="img/works/04.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/05.webp" type="image/webp"><img src="img/works/05.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/06.webp" type="image/webp"><img src="img/works/06.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/07.webp" type="image/webp"><img src="img/works/07.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/08.webp" type="image/webp"><img src="img/works/08.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/09.webp" type="image/webp"><img src="img/works/09.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/10.webp" type="image/webp"><img src="img/works/10.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/11.webp" type="image/webp"><img src="img/works/11.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/12.webp" type="image/webp"><img src="img/works/12.jpg" alt="Img"></picture></div>
+							<div class="works__item item-works swiper-slide"><picture><source srcset="img/works/13.webp" type="image/webp"><img src="img/works/13.jpg" alt="Img"></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="faq" class="section faq">
+				<div class="faq__container">
+					<div class="faq__img">
+						<picture><source srcset="img/faq/faq-img.webp" type="image/webp"><img src="img/faq/faq-img.png" alt="Img"></picture>
+					</div>
+					<div class="faq__body">
+						<h2 class="section__title faq__title">FAQ</h2>
+
+						<div data-spollers data-one-spoller class="faq__spollers">
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+
+									<button type="button" class="faq__spollers-button">
+										Was sind die Vorteile der Sonnenenergie?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Solarenergie ist eine saubere und erneuerbare Energiequelle, die dazu beitragen kann, Ihren CO2-Fußabdruck zu reduzieren und Ihre Abhängigkeit von traditionellen Energiequellen zu verringern. Durch die Installation von Solarmodulen können Sie Ihren eigenen Strom erzeugen und möglicherweise Geld bei Ihren Stromrechnungen sparen.
+								</div>
+							</div>
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+
+									<button type="button" class="faq__spollers-button">
+										Wie funktioniert die Installation?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Der Installationsprozess umfasst in der Regel eine Standortanalyse, um die Eignung Ihrer Immobilien für Solarplatten zu bewerten, gefolgt von der Plangenehmigung und der Installation der Platten auf Ihrem Dach oder Grundstück. Unser Team arbeitet mit Ihnen zusammen, um einen reibungslosen und effizienten Installationsprozess zu gewährleisten, minimale Störungen in Ihrem Alltag zu versichern und sich mit den notwendigen Parteien zu koordiniert. Nach Abschluss der Installation lehren wir den Umgang mit dem System und bieten kontinuierlichen Support für die optimale Leistung der Solarplatten an.
+								</div>
+							</div>
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+									<button type="button" class="faq__spollers-button">
+										Wie viel kann ich mit meinem Solarsystem sparen?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Der Betrag, den Sie mit dem Solarsystem an Ihren Energiekosten einsparen können, hängt von einer Reihe von Faktoren ab, wie z. B. Ihrem Energieverbrauch, der Größe Ihrer Solarpanelanlage und der Menge an Sonnenlicht, die Ihr Grundstück erhält.
+								</div>
+							</div>
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+
+									<button type="button" class="faq__spollers-button">
+										Welche Finanzierungsmöglichkeiten gibt es für die Solaranlage?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Für die Installation von Solarplatten in Deutschland stehen verschiedene Finanzierungsmöglichkeiten zur Verfügung, darunter Direktkauf, KfW-Kredite und staatliche Subventionen. Unser Team kann mit Ihnen zusammenarbeiten, um Ihnen dabei zu helfen, Ihre Finanzierungsmöglichkeiten zu erkunden und die beste Lösung für Ihre Bedürfnisse auszuwählen.
+								</div>
+							</div>
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+
+									<button type="button" class="faq__spollers-button">
+										What kind of maintenance is required for solar panels?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Solar panels require very little maintenance, typically only needing occasional cleaning and inspection to ensure optimal performance. Our team can provide guidance on how to properly care for your solar panel system to maximize its lifespan and performance.
+								</div>
+							</div>
+							<div class="faq__spollers-item">
+								<div data-spoller class="faq__spollers-title">
+									<div class="faq__spollers-icon">
+										<svg viewBox="0 0 24 42" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99705 11.7089C3.99705 7.83474 7.84837 4.62205 11.8984 4.62205C15.9485 4.62205 19.7998 7.83474 19.7998 11.7089C19.7998 15.2897 17.985 16.9678 15.5445 19.1345L15.4435 19.2225C13.0226 21.3697 10.0249 24.0253 10.0249 29.3037C10.0249 29.5497 10.0734 29.7934 10.1675 30.0207C10.2617 30.248 10.3997 30.4545 10.5737 30.6285C10.7476 30.8025 10.9542 30.9405 11.1815 31.0346C11.4088 31.1288 11.6524 31.1772 11.8984 31.1772C12.1445 31.1772 12.3881 31.1288 12.6154 31.0346C12.8427 30.9405 13.0492 30.8025 13.2232 30.6285C13.3972 30.4545 13.5352 30.248 13.6293 30.0207C13.7235 29.7934 13.772 29.5497 13.772 29.3037C13.772 25.7684 15.5771 24.11 18.0306 21.9399L18.0957 21.8748C20.5329 19.7178 23.5469 17.046 23.5469 11.7089C23.5469 5.28349 17.4995 0.875 11.8984 0.875C6.29741 0.875 0.25 5.28349 0.25 11.7089C0.25 11.9549 0.29846 12.1985 0.392614 12.4258C0.486767 12.6531 0.624771 12.8597 0.798744 13.0336C0.972717 13.2076 1.17925 13.3456 1.40656 13.4398C1.63386 13.5339 1.87749 13.5824 2.12353 13.5824C2.36956 13.5824 2.61319 13.5339 2.84049 13.4398C3.0678 13.3456 3.27433 13.2076 3.44831 13.0336C3.62228 12.8597 3.76028 12.6531 3.85444 12.4258C3.94859 12.1985 3.99705 11.9549 3.99705 11.7089ZM11.8984 41.8742C12.6546 41.8742 13.3797 41.5739 13.9144 41.0392C14.4491 40.5045 14.7495 39.7794 14.7495 39.0232C14.7495 38.2671 14.4491 37.5419 13.9144 37.0073C13.3797 36.4726 12.6546 36.1722 11.8984 36.1722C11.1423 36.1722 10.4171 36.4726 9.88246 37.0073C9.3478 37.5419 9.04742 38.2671 9.04742 39.0232C9.04742 39.7794 9.3478 40.5045 9.88246 41.0392C10.4171 41.5739 11.1423 41.8742 11.8984 41.8742Z" fill="#08A857" />
+										</svg>
+									</div>
+
+									<button type="button" class="faq__spollers-button">
+										Für wie lange halten Solarplatten?
+										<svg viewBox="0 0 27 18" fill="none">
+											<path d="M24 3L14.2779 15.0368C13.8777 15.5324 13.1223 15.5324 12.7221 15.0368L3 3" stroke="#1F1F1F" stroke-width="5" stroke-linecap="round" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="faq__spollers-body">
+									Solarplatten sind auf Langlebigkeit ausgelegt und haben in der Regel eine Lebensdauer von 25-30 Jahren oder mehr. Unsere Solarpanelsysteme werden mit einer Garantie geliefert, um zusätzliche Sicherheit und Schutz für Ihre Investition zu bieten.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="feedback" class="section feedback">
+				<div class="feedback__container">
+					<div class="feedback__body">
+						<h2 class="section__title feedback__title">Kontaktieren <span> Sie uns</span> </h2>
+
+						<p class="feedback__text">Haben Sie Fragen?
+							Bitte kontaktieren Sie uns.
+						</p>
+
+						<div class="feedback__contact contact-feedback">
+							<a href="tel:+491785533795" class="contact-feedback__item">
+								<div class="contact-feedback__icon">
+									<svg viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84409 8.1088C8.02859 7.0813 8.50619 6.291 7.39159 3.604C6.35659 0.995999 5.71969 -1.21672 3.01289 0.75901C1.02249 2.1815 0.385591 2.2606 0.0670907 4.1573C-0.808749 10.3217 7.07329 22.8877 13.0441 24.7844C14.9547 25.3377 15.2732 24.7844 17.4228 23.5989C20.3686 22.0973 18.6171 20.5958 16.7859 18.4619C14.7955 16.328 13.8402 16.4071 11.611 18.778C9.46129 18.936 3.80919 9.9265 4.84409 8.1088Z" fill="white" />
+									</svg>
+								</div>
+								+49 178 5533795
+							</a>
+							<a href="" class="contact-feedback__item">
+								<div class="contact-feedback__icon">
+									<svg viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1.6501 0C1.3257 0 1.028 0.0954004 0.77342 0.2524L10.1921 8.3043C10.6899 8.7301 11.292 8.7301 11.7906 8.3043L21.2264 0.2442C20.9728 0.0886998 20.6724 0.000300407 20.3498 0.000300407L1.6501 0ZM0.0945702 1.0937C0.0374002 1.2579 0 1.4316 0 1.6153V12.3845C0 13.2794 0.73582 14 1.6501 14H20.3499C21.2639 14 22 13.2796 22 12.3845V1.6153C22 1.4316 21.9626 1.2579 21.9054 1.0936L12.5123 9.12C11.6372 9.8673 10.3451 9.86 9.4702 9.1117L0.0945702 1.0937Z" fill="white" />
+									</svg>
+								</div>
+								E-Mail-Adresse@gmail.com
+							</a>
+							<a href="" class="contact-feedback__item">
+								<div class="contact-feedback__icon">
+									<svg viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84409 8.1088C8.02859 7.0813 8.50619 6.291 7.39159 3.604C6.35659 0.995999 5.71969 -1.21672 3.01289 0.75901C1.02249 2.1815 0.385591 2.2606 0.0670907 4.1573C-0.808749 10.3217 7.07329 22.8877 13.0441 24.7844C14.9547 25.3377 15.2732 24.7844 17.4228 23.5989C20.3686 22.0973 18.6171 20.5958 16.7859 18.4619C14.7955 16.328 13.8402 16.4071 11.611 18.778C9.46129 18.936 3.80919 9.9265 4.84409 8.1088Z" fill="white" />
+									</svg>
+								</div>
+								Profisolar Bau GmbH
+							</a>
+						</div>
+					</div>
+					<form class="form feedback__form">
+						<div class="form__row">
+							<input autocomplete="off" type="text" name="name" data-required data-validate data-error="mandatory fields" placeholder="Ihr Name" class="form__input">
+						</div>
+						<div class="form__row">
+							<input autocomplete="off" type="email" name="email" data-required="email" data-validate data-error="mandatory fields" placeholder="Ihre Telefonnummer" class="form__input">
+						</div>
+						<div class="form__row flex-50">
+							<input autocomplete="off" type="tel" name="phone" data-required data-validate data-error="mandatory fields" placeholder="Ihre E-Mail" class="form__input">
+						</div>
+						<div class="form__row flex-50">
+							<input autocomplete="off" type="text" name="sity" data-required data-validate data-error="mandatory fields" placeholder="Ihre Adresse" class="form__input">
+						</div>
+						<div class="form__row">
+							<textarea name="message" name="message" placeholder="Ihre Nachricht" class="form__textarea"></textarea>
+						</div>
+						<div class="form__row">
+							<button type="submit" class="form__button">Nachricht senden</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__group">
+					<a href="/" class="footer__logo logo">
+						<img src="img/logo.svg" alt="Logo">
+					</a>
+					<div data-da=".footer__container, 768, last" class="footer__social social">
+						<a href="https://instagram.com/profisolar.bau.gmbh?igshid=MzRlODBiNWFlZA==" class="social__item">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.99789 6.8479C8.26202 6.8479 6.84542 8.26453 6.84542 10.0004C6.84542 11.7363 8.26202 13.153 9.99789 13.153C11.7338 13.153 13.1504 11.7363 13.1504 10.0004C13.1504 8.26453 11.7338 6.8479 9.99789 6.8479ZM19.4529 10.0004C19.4529 8.69495 19.4647 7.40131 19.3914 6.0982C19.3181 4.58461 18.9728 3.2413 17.866 2.13448C16.7569 1.02531 15.416 0.682383 13.9024 0.609068C12.597 0.535753 11.3033 0.547578 10.0002 0.547578C8.6948 0.547578 7.40118 0.535753 6.0981 0.609068C4.58453 0.682383 3.24125 1.02767 2.13445 2.13448C1.0253 3.24366 0.68238 4.58461 0.609067 6.0982C0.535754 7.40367 0.547578 8.69732 0.547578 10.0004C0.547578 11.3035 0.535754 12.5995 0.609067 13.9027C0.68238 15.4162 1.02766 16.7596 2.13445 17.8664C3.24361 18.9755 4.58453 19.3185 6.0981 19.3918C7.40354 19.4651 8.69717 19.4533 10.0002 19.4533C11.3057 19.4533 12.5993 19.4651 13.9024 19.3918C15.416 19.3185 16.7593 18.9732 17.866 17.8664C18.9752 16.7572 19.3181 15.4162 19.3914 13.9027C19.4671 12.5995 19.4529 11.3059 19.4529 10.0004V10.0004ZM9.99789 14.851C7.31368 14.851 5.14739 12.6847 5.14739 10.0004C5.14739 7.31617 7.31368 5.14984 9.99789 5.14984C12.6821 5.14984 14.8484 7.31617 14.8484 10.0004C14.8484 12.6847 12.6821 14.851 9.99789 14.851ZM15.047 6.08401C14.4203 6.08401 13.9142 5.5779 13.9142 4.95118C13.9142 4.32446 14.4203 3.81835 15.047 3.81835C15.6737 3.81835 16.1798 4.32446 16.1798 4.95118C16.18 5.1 16.1509 5.24739 16.094 5.38492C16.0371 5.52244 15.9537 5.6474 15.8485 5.75263C15.7432 5.85786 15.6183 5.9413 15.4808 5.99816C15.3432 6.05502 15.1959 6.0842 15.047 6.08401V6.08401Z" fill="#1F1F1F" />
+							</svg>
+						</a>
+						<a href="" class="social__item">
+							<svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M19.0486 2.57517C18.9391 2.18468 18.7257 1.83115 18.4313 1.55217C18.1285 1.2646 17.7574 1.0589 17.353 0.95448C15.8395 0.555752 9.77587 0.555752 9.77587 0.555752C7.24802 0.527006 4.72079 0.65344 2.20844 0.934342C1.80403 1.04648 1.43362 1.25678 1.13014 1.54653C0.831961 1.83329 0.615979 2.18691 0.503153 2.57436C0.232122 4.03374 0.100437 5.51556 0.109872 6.99984C0.100202 8.48279 0.231564 9.96412 0.503153 11.4253C0.613561 11.8112 0.828737 12.1632 1.12773 12.4475C1.42672 12.7319 1.79904 12.9373 2.20844 13.046C3.74207 13.4439 9.77587 13.4439 9.77587 13.4439C12.3069 13.4727 14.8374 13.3463 17.353 13.0653C17.7574 12.9609 18.1285 12.7552 18.4313 12.4677C18.7256 12.1887 18.9387 11.8351 19.0478 11.4447C19.3259 9.98583 19.4611 8.5034 19.4515 7.01837C19.4724 5.52705 19.3374 4.03763 19.0486 2.57436V2.57517ZM7.84815 9.75791V4.24258L12.8931 7.00065L7.84815 9.75791Z" fill="#1F1F1F" />
+							</svg>
+						</a>
+						<a href="" class="social__item">
+							<svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.45551 25.1853H8.9062V14.0658H12.6278L13.1898 9.73981H8.9062V6.96755C8.9062 5.7185 9.25557 4.8655 11.048 4.8655H13.3417V0.981275C12.9468 0.935578 11.5948 0.813721 10.0151 0.813721C6.70364 0.813721 4.45551 2.83961 4.45551 6.54104V9.73981H0.71875V14.0658H4.45551V25.1853Z" fill="#1F1F1F" />
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer__group">
+					<h3 class="footer__group-title">Contacts</h3>
+
+					<div class="footer__contact">
+						<a href="tel:+00493050930720" class="footer__contact-item">
+							<div class="footer__contact-icon">
+								<svg viewBox="0 0 19 25" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84409 8.1088C8.02859 7.0813 8.50619 6.291 7.39159 3.604C6.35659 0.995999 5.71969 -1.21672 3.01289 0.75901C1.02249 2.1815 0.385591 2.2606 0.0670907 4.1573C-0.808749 10.3217 7.07329 22.8877 13.0441 24.7844C14.9547 25.3377 15.2732 24.7844 17.4228 23.5989C20.3686 22.0973 18.6171 20.5958 16.7859 18.4619C14.7955 16.328 13.8402 16.4071 11.611 18.778C9.46129 18.936 3.80919 9.9265 4.84409 8.1088Z" fill="#000" />
+								</svg>
+							</div>
+							0049 30 50930720
+						</a>
+						<a href="mailto:info@profisolar.eu" class="footer__contact-item">
+							<div class="footer__contact-icon">
+								<svg viewBox="0 0 22 14" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.6501 0C1.3257 0 1.028 0.0954004 0.77342 0.2524L10.1921 8.3043C10.6899 8.7301 11.292 8.7301 11.7906 8.3043L21.2264 0.2442C20.9728 0.0886998 20.6724 0.000300407 20.3498 0.000300407L1.6501 0ZM0.0945702 1.0937C0.0374002 1.2579 0 1.4316 0 1.6153V12.3845C0 13.2794 0.73582 14 1.6501 14H20.3499C21.2639 14 22 13.2796 22 12.3845V1.6153C22 1.4316 21.9626 1.2579 21.9054 1.0936L12.5123 9.12C11.6372 9.8673 10.3451 9.86 9.4702 9.1117L0.0945702 1.0937Z" fill="#000" />
+								</svg>
+							</div>
+							info@profisolar.eu
+						</a>
+						<a href="/" class="footer__contact-item">
+							<div class="footer__contact-icon">
+								<svg viewBox="0 0 19 25" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84409 8.1088C8.02859 7.0813 8.50619 6.291 7.39159 3.604C6.35659 0.995999 5.71969 -1.21672 3.01289 0.75901C1.02249 2.1815 0.385591 2.2606 0.0670907 4.1573C-0.808749 10.3217 7.07329 22.8877 13.0441 24.7844C14.9547 25.3377 15.2732 24.7844 17.4228 23.5989C20.3686 22.0973 18.6171 20.5958 16.7859 18.4619C14.7955 16.328 13.8402 16.4071 11.611 18.778C9.46129 18.936 3.80919 9.9265 4.84409 8.1088Z" fill="#000" />
+								</svg>
+							</div>
+							Profisolar Bau GmbH
+						</a>
+					</div>
+				</div>
+				<div class="footer__group">
+					<h3 class="footer__group-title">Navigation</h3>
+
+					<ul class="footer__group-list">
+						<li><a href="" data-goto="#steps">Services</a></li>
+						<li><a href="" data-goto="#calculate">Calculator</a></li>
+						<li><a href="" data-goto="#reviews">Reviews</a></li>
+						<li><a href="" data-goto="#works">Works</a></li>
+						<li><a href="" data-goto="#faq">FAQ</a></li>
+						<li><a href="" data-goto="#feedback">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="footer__group">
+					<h3 class="footer__group-title">Documents</h3>
+
+					<ul class="footer__group-list">
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">User agreement</a></li>
+						<li><a href="">Offerta</a></li>
+						<li><a href="">Money back guarantee</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<div class="quiz">
+			<form id="form-quiz" action="files/sendmail/sendmail.php" class="quiz__form form-quiz">
+				<div class="form-quiz__close">X</div>
+				<div class="form-quiz__progresbar">
+				</div>
+				<div class="form-quiz__body">
+					<div class="form-quiz__step step-quiz-current">
+						<h2 class="form-quiz__title">Wie groß ist Ihr Grundstück in Quadratmetern?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="less-than-100" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">weniger 100 m² als</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="100-200" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">100-200 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="200-300" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">200-300 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="300-400" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">300-400 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="400-500" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">400-500 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeEstate" value="over-500" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">über 500 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title">Wie hoch ist Ihre durchschnittliche monatliche Stromrechnung in Euro?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="electricBill" value="less-than-50" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">weniger 50€ als</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="electricBill" value="50-100" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">50€-100€</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="electricBill" value="100€-150€" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">100€-150€</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="electricBill" value="150€-200€" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">150€-200€</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="electricBill" value="Over 200€" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">über 200€</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title">Was für ein Dach haben Sie?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="typeRoof" value="AsphaltShingle" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Asphaltschindeldach</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="typeRoof" value="Metal" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Metalldach</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="typeRoof" value="Tile" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Fliesendach</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="typeRoof" value="Flat" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Flachdach</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="typeRoof" value="Other" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Andere Variante</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title">Wie groß ist Ihr Dach in Quadratmetern?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeRoof" value="Less-than-50" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">weniger als 50 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeRoof" value="50-100" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">50-100 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeRoof" value="100-150" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">100-150 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeRoof" value="150-200" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">150-200 m²</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="sizeRoof" value="Over-200" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">über 200 m² </span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title">Dachten Sie schon an ein Budget für Ihr Solarpanelsystem? Wenn ja, wie viel?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="budgetPanel" value="No" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Nein, daran habe ich noch nicht gedacht</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="budgetPanel" value="5000" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">weniger als 5,000</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="budgetPanel" value="5000-10000" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">5,000-10,000 euros</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="budgetPanel" value="10000-15000" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">10,000-15,000 euros</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="budgetPanel" value="More-15000" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">mehr als 15,000 euros</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title">Welche Finanzierungsmöglichkeiten ziehen Sie für Ihre Solaranlage in Betracht?</h2>
+						<fieldset class="form-quiz__fieldset">
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="financingOptions" value="Direct-Purchase" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Direktkauf (durch Barzahlung oder Kreditaufnahme)</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="financingOptions" value="KfW-Loans" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">KfW-Kredite</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="financingOptions" value="State-Subsidies" class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Staatliche Subventionen</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+							<label class="form-quiz__fieldset-item">
+								<input type="radio" name="financingOptions" value="Other " class="form-quiz__input">
+								<span class="form-quiz__fieldset-radio"></span>
+								<span class="form-quiz__fieldset-question">Andere Variante</span>
+								<span class="form-quiz__fieldset-border"></span>
+							</label>
+						</fieldset>
+					</div>
+					<div class="form-quiz__step">
+						<h2 class="form-quiz__title" style="text-align: center;">
+							Bitte geben Sie Ihren vollständigen Namen, Ihre Telefonnummer, Ihre E-Mail und Ihre Adresse an</h2>
+						<fieldset class="form-quiz__fieldset">
+							<div class="form__row flex-50">
+								<input autocomplete="off" type="text" name="name" data-required data-validate data-error="mandatory fields" placeholder="Ihr Name" class="form__input">
+							</div>
+							<div class="form__row flex-50">
+								<input autocomplete="off" type="tel" name="phone" data-required data-validate data-error="mandatory fields" placeholder="Ihre Telefonnummer" class="form__input">
+							</div>
+							<div class="form__row flex-50">
+								<input autocomplete="off" type="email" name="email" data-required="email" data-validate data-error="mandatory fields" placeholder="Ihre E-Mail" class="form__input">
+							</div>
+							<div class="form__row flex-50">
+								<input autocomplete="off" type="text" name="sity" data-required data-validate data-error="mandatory fields" placeholder="Ihre Adresse" class="form__input">
+							</div>
+						</fieldset>
+						<button type="submit" class="form__button">Nachricht senden</button>
+					</div>
+				</div>
+
+				<div class="form-quiz__btns">
+					<button type="button" class="btn form-quiz__btn form-quiz__btn-prev">Zurück</button>
+					<button type="button" class="btn form-quiz__btn form-quiz__btn-next">Weiter</button>
+				</div>
+
+			</form>
 		</div>
-		<h2>Готові сторінки:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="en.html">En</a></li>
-			<li><a target="_blank" href="de.html">De</a></li>
-		</ol>
-		<h2>Попапи:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="main.html#"></a></li>
-		</ol>
+
 	</div>
+	<script src="js/app.min.js?_v=20230626232717"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #fff;
-		background-color: #1E2756;
-	}
-
-	body {
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color:
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #fff;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #fff;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #fff;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: #32b5a4;
-
-	}
-
-	.rootpage__contacts a {
-		color: #fff;
-	}
-
-	.rootpage__tnx {
-		background: #c22d63;
-		margin: 0px 0px 1rem 0px;
-	}
-</style>
 
 </html>
