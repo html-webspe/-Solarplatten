@@ -612,6 +612,10 @@ h6 {
   gap: 20px;
 }
 
+.header__logo {
+  max-width: 185px;
+}
+
 .header__menu {
   padding-top: 15px;
 }
@@ -682,6 +686,7 @@ h6 {
 
 .footer__logo {
   display: block;
+  max-width: 185px;
   margin-bottom: 34px;
 }
 
@@ -2255,12 +2260,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (min-width: 100em) {
-  .header__logo {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 209px;
-            flex: 0 0 209px;
-  }
-
   .header__menu {
     margin-left: 110px;
     margin-right: 75px;
